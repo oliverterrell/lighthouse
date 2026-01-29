@@ -1,0 +1,203 @@
+{
+  "applicant_name": "Sarah Chen",
+  "profile_type": "startup-founder",
+  "demographic_information": {
+    "fields": [
+      {
+        "name": "legal_name",
+        "label": "Legal Name",
+        "type": "text",
+        "required": true,
+        "value": "Sarah Chen"
+      },
+      {
+        "name": "passport",
+        "label": "Passport",
+        "type": "file",
+        "required": true,
+        "hint": "Upload a clear copy of your passport bio page"
+      },
+      {
+        "name": "country_of_birth",
+        "label": "Country of Birth",
+        "type": "text",
+        "required": true,
+        "value": ""
+      },
+      {
+        "name": "current_visa",
+        "label": "Current Visa Status",
+        "type": "text",
+        "required": true,
+        "hint": "e.g., F-1, H-1B, or None"
+      },
+      {
+        "name": "address",
+        "label": "Current Address",
+        "type": "text",
+        "required": true,
+        "hint": "Include both U.S. and foreign address if applicable"
+      }
+    ]
+  },
+  "criteria": [
+    {
+      "id": "critical-role",
+      "name": "Critical Role",
+      "description": "Leadership positions in distinguished organizations",
+      "guidance": "Document roles where you held significant responsibility and influence within well-regarded companies or organizations.",
+      "instances": [
+        {
+          "id": "cr-1",
+          "title": "Founding Engineer at Bland",
+          "fields": [
+            {
+              "name": "start_date",
+              "label": "Start Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "end_date",
+              "label": "End Date",
+              "type": "date",
+              "required": false,
+              "hint": "Leave blank if current position",
+              "value": ""
+            },
+            {
+              "name": "key_responsibilities",
+              "label": "Key Responsibilities",
+              "type": "text",
+              "required": true,
+              "hint": "Describe your role, team size, and impact on the organization",
+              "value": ""
+            },
+            {
+              "name": "examples",
+              "label": "Supporting Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Product roadmaps, technical diagrams, speaking invites, blog posts, dashboards showing project ownership",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "high-remuneration",
+      "name": "High Remuneration",
+      "description": "Compensation significantly above average for your field",
+      "guidance": "Demonstrate that your salary and total compensation place you in the top tier of your profession.",
+      "instances": [
+        {
+          "id": "hr-1",
+          "title": "Founding Engineer at Bland",
+          "fields": [
+            {
+              "name": "work_location",
+              "label": "Work Location",
+              "type": "text",
+              "required": true,
+              "hint": "City and State/Country",
+              "value": ""
+            },
+            {
+              "name": "salary",
+              "label": "Annual Salary",
+              "type": "text",
+              "required": true,
+              "hint": "Include currency (e.g., $1,800,000 USD)",
+              "value": ""
+            },
+            {
+              "name": "paystubs",
+              "label": "Recent Paystubs",
+              "type": "files",
+              "required": true,
+              "hint": "Upload your last 4 paystubs",
+              "value": []
+            },
+            {
+              "name": "equity_proof",
+              "label": "Equity Documentation",
+              "type": "files_or_urls",
+              "required": false,
+              "hint": "Carta screenshot, offer letter showing equity, or cap table",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "original-contributions",
+      "name": "Original Contributions",
+      "description": "Original work with significant impact on your field",
+      "guidance": "Show how your work has advanced your field and been recognized by others.",
+      "instances": [
+        {
+          "id": "oc-1",
+          "title": "Technical Contributions at Bland",
+          "fields": [
+            {
+              "name": "work_description",
+              "label": "Describe Your Work",
+              "type": "text",
+              "required": true,
+              "hint": "What did you create or contribute that was original and innovative?",
+              "value": ""
+            },
+            {
+              "name": "impact_description",
+              "label": "Impact on the Field",
+              "type": "text",
+              "required": true,
+              "hint": "How has your work influenced the industry or community? Include metrics if possible.",
+              "value": ""
+            },
+            {
+              "name": "supporting_evidence",
+              "label": "Supporting Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "GitHub repositories, technical blog posts, conference talks, citations, adoption metrics",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "membership",
+      "name": "Membership",
+      "description": "Membership in organizations requiring outstanding achievement",
+      "guidance": "Document memberships in selective organizations that require demonstrated excellence.",
+      "instances": [
+        {
+          "id": "m-1",
+          "title": "Y Combinator",
+          "fields": [
+            {
+              "name": "date_selected",
+              "label": "Date Selected/Admitted",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "proof_of_membership",
+              "label": "Proof of Membership",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Acceptance letter, certificate, or official documentation",
+              "value": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1263 @@
+{
+  "applicant_name": "Dr. Priya Sharma",
+  "profile_type": "ai-researcher",
+  "demographic_information": {
+    "fields": [
+      {
+        "name": "legal_name",
+        "label": "Legal Name",
+        "type": "text",
+        "required": true,
+        "value": "Priya Sharma"
+      },
+      {
+        "name": "passport",
+        "label": "Passport",
+        "type": "file",
+        "required": true,
+        "hint": "Upload a clear copy of your passport bio page"
+      },
+      {
+        "name": "country_of_birth",
+        "label": "Country of Birth",
+        "type": "text",
+        "required": true,
+        "value": ""
+      },
+      {
+        "name": "current_visa",
+        "label": "Current Visa Status",
+        "type": "text",
+        "required": true,
+        "hint": "e.g., F-1, H-1B, or None"
+      },
+      {
+        "name": "address",
+        "label": "Current Address",
+        "type": "text",
+        "required": true,
+        "hint": "Include both U.S. and foreign address if applicable"
+      }
+    ]
+  },
+  "criteria": [
+    {
+      "id": "scholarly-articles",
+      "name": "Scholarly Articles",
+      "description": "Published research in top-tier AI/ML conferences and journals",
+      "guidance": "Document peer-reviewed publications that demonstrate your contributions to AI research. For AI researchers, conferences like NeurIPS, ICML, and CVPR are considered top-tier.",
+      "instances": [
+        {
+          "id": "sa-1",
+          "title": "NeurIPS 2024 - Scalable Transformer Architecture",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of paper, conference proceedings link, or arXiv link",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "sa-2",
+          "title": "ICML 2024 - Few-Shot Learning Framework",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of paper, conference proceedings link, or arXiv link",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "sa-3",
+          "title": "CVPR 2023 - Vision Transformer Optimization",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of paper, conference proceedings link, or arXiv link",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "sa-4",
+          "title": "Nature Machine Intelligence - Ethical AI Systems",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of paper, conference proceedings link, or arXiv link",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "sa-5",
+          "title": "ICLR 2023 - Reinforcement Learning for Robotics",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of paper, conference proceedings link, or arXiv link",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "sa-6",
+          "title": "ACL 2022 - Natural Language Understanding Models",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of paper, conference proceedings link, or arXiv link",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "sa-7",
+          "title": "AAAI 2022 - Multi-Agent Systems",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of paper, conference proceedings link, or arXiv link",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "sa-8",
+          "title": "KDD 2021 - Large-Scale Data Mining",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of paper, conference proceedings link, or arXiv link",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judging",
+      "name": "Judging",
+      "description": "Peer review and evaluation of others' work",
+      "guidance": "Demonstrate that you have been asked to evaluate the work of other researchers due to your expertise in AI/ML.",
+      "instances": [
+        {
+          "id": "j-1",
+          "title": "NeurIPS Program Committee",
+          "fields": [
+            {
+              "name": "organization_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "role_description",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "Peer reviewer, area chair, senior program committee, etc.",
+              "value": ""
+            },
+            {
+              "name": "date_range",
+              "label": "Time Period",
+              "type": "text",
+              "required": true,
+              "hint": "e.g., 2022 - Present",
+              "value": ""
+            },
+            {
+              "name": "number_reviewed",
+              "label": "Number of Submissions Reviewed",
+              "type": "text",
+              "required": false,
+              "hint": "Approximate number if known",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Proof of Service",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Invitation letters, certificates, acknowledgment from conference",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "j-2",
+          "title": "ICML Area Chair",
+          "fields": [
+            {
+              "name": "organization_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "role_description",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "Peer reviewer, area chair, senior program committee, etc.",
+              "value": ""
+            },
+            {
+              "name": "date_range",
+              "label": "Time Period",
+              "type": "text",
+              "required": true,
+              "hint": "e.g., 2022 - Present",
+              "value": ""
+            },
+            {
+              "name": "number_reviewed",
+              "label": "Number of Submissions Reviewed",
+              "type": "text",
+              "required": false,
+              "hint": "Approximate number if known",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Proof of Service",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Invitation letters, certificates, acknowledgment from conference",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "j-3",
+          "title": "Journal of Machine Learning Research Reviewer",
+          "fields": [
+            {
+              "name": "organization_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "role_description",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "Peer reviewer, area chair, senior program committee, etc.",
+              "value": ""
+            },
+            {
+              "name": "date_range",
+              "label": "Time Period",
+              "type": "text",
+              "required": true,
+              "hint": "e.g., 2022 - Present",
+              "value": ""
+            },
+            {
+              "name": "number_reviewed",
+              "label": "Number of Submissions Reviewed",
+              "type": "text",
+              "required": false,
+              "hint": "Approximate number if known",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Proof of Service",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Invitation letters, certificates, acknowledgment from conference",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "j-4",
+          "title": "CVPR Reviewer",
+          "fields": [
+            {
+              "name": "organization_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "role_description",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "Peer reviewer, area chair, senior program committee, etc.",
+              "value": ""
+            },
+            {
+              "name": "date_range",
+              "label": "Time Period",
+              "type": "text",
+              "required": true,
+              "hint": "e.g., 2022 - Present",
+              "value": ""
+            },
+            {
+              "name": "number_reviewed",
+              "label": "Number of Submissions Reviewed",
+              "type": "text",
+              "required": false,
+              "hint": "Approximate number if known",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Proof of Service",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Invitation letters, certificates, acknowledgment from conference",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "j-5",
+          "title": "NSF Grant Review Panel",
+          "fields": [
+            {
+              "name": "organization_name",
+              "label": "Conference/Journal Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "role_description",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "Peer reviewer, area chair, senior program committee, etc.",
+              "value": ""
+            },
+            {
+              "name": "date_range",
+              "label": "Time Period",
+              "type": "text",
+              "required": true,
+              "hint": "e.g., 2022 - Present",
+              "value": ""
+            },
+            {
+              "name": "number_reviewed",
+              "label": "Number of Submissions Reviewed",
+              "type": "text",
+              "required": false,
+              "hint": "Approximate number if known",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Proof of Service",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Invitation letters, certificates, acknowledgment from conference",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "original-contributions",
+      "name": "Original Contributions",
+      "description": "Novel AI research with measurable industry impact",
+      "guidance": "Show how your research has advanced the field of AI and been recognized by the community.",
+      "instances": [
+        {
+          "id": "oc-1",
+          "title": "Open-Source ML Framework - 15K GitHub Stars",
+          "fields": [
+            {
+              "name": "work_description",
+              "label": "Describe Your Work",
+              "type": "text",
+              "required": true,
+              "hint": "What did you create or contribute that was original and innovative?",
+              "value": ""
+            },
+            {
+              "name": "impact_description",
+              "label": "Impact on the Field",
+              "type": "text",
+              "required": true,
+              "hint": "How has your work influenced the industry or community? Include metrics if possible.",
+              "value": ""
+            },
+            {
+              "name": "supporting_evidence",
+              "label": "Supporting Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "GitHub repository, download statistics, adoption by major companies, citations",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "oc-2",
+          "title": "Patent - Efficient Neural Network Training",
+          "fields": [
+            {
+              "name": "work_description",
+              "label": "Describe Your Work",
+              "type": "text",
+              "required": true,
+              "hint": "What did you create or contribute that was original and innovative?",
+              "value": ""
+            },
+            {
+              "name": "impact_description",
+              "label": "Impact on the Field",
+              "type": "text",
+              "required": true,
+              "hint": "How has your work influenced the industry or community? Include metrics if possible.",
+              "value": ""
+            },
+            {
+              "name": "supporting_evidence",
+              "label": "Supporting Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Patent documentation, licensing agreements, industry adoption",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "oc-3",
+          "title": "Industry-Standard Benchmark Dataset",
+          "fields": [
+            {
+              "name": "work_description",
+              "label": "Describe Your Work",
+              "type": "text",
+              "required": true,
+              "hint": "What did you create or contribute that was original and innovative?",
+              "value": ""
+            },
+            {
+              "name": "impact_description",
+              "label": "Impact on the Field",
+              "type": "text",
+              "required": true,
+              "hint": "How has your work influenced the industry or community? Include metrics if possible.",
+              "value": ""
+            },
+            {
+              "name": "supporting_evidence",
+              "label": "Supporting Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Dataset downloads, papers citing the dataset, benchmark leaderboards",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "awards",
+      "name": "Awards",
+      "description": "Recognition for excellence in AI research",
+      "guidance": "Document major prizes, honors, or awards for your AI/ML achievements.",
+      "instances": [
+        {
+          "id": "a-1",
+          "title": "Best Paper Award - NeurIPS 2024",
+          "fields": [
+            {
+              "name": "award_name",
+              "label": "Award Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "issuing_organization",
+              "label": "Issuing Organization",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "date_received",
+              "label": "Date Received",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "selection_criteria",
+              "label": "Selection Criteria",
+              "type": "text",
+              "required": true,
+              "hint": "Describe what the award recognizes and how selective it is",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Award Documentation",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Certificate, announcement, award letter",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "a-2",
+          "title": "Google PhD Fellowship in Machine Learning",
+          "fields": [
+            {
+              "name": "award_name",
+              "label": "Award Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "issuing_organization",
+              "label": "Issuing Organization",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "date_received",
+              "label": "Date Received",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "selection_criteria",
+              "label": "Selection Criteria",
+              "type": "text",
+              "required": true,
+              "hint": "Describe what the award recognizes and how selective it is",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Award Documentation",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Certificate, announcement, award letter",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "a-3",
+          "title": "MIT Technology Review Innovators Under 35",
+          "fields": [
+            {
+              "name": "award_name",
+              "label": "Award Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "issuing_organization",
+              "label": "Issuing Organization",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "date_received",
+              "label": "Date Received",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "selection_criteria",
+              "label": "Selection Criteria",
+              "type": "text",
+              "required": true,
+              "hint": "Describe what the award recognizes and how selective it is",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Award Documentation",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Certificate, announcement, award letter",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "a-4",
+          "title": "Outstanding Paper Award - ICML 2023",
+          "fields": [
+            {
+              "name": "award_name",
+              "label": "Award Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "issuing_organization",
+              "label": "Issuing Organization",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "date_received",
+              "label": "Date Received",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "selection_criteria",
+              "label": "Selection Criteria",
+              "type": "text",
+              "required": true,
+              "hint": "Describe what the award recognizes and how selective it is",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Award Documentation",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Certificate, announcement, award letter",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "press",
+      "name": "Press",
+      "description": "Media coverage of research and achievements",
+      "guidance": "Show major publications that have featured your AI research or interviewed you.",
+      "instances": [
+        {
+          "id": "p-1",
+          "title": "MIT Technology Review - AI Breakthrough Feature",
+          "fields": [
+            {
+              "name": "publication_name",
+              "label": "Publication Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_link",
+              "label": "Article Link/PDF",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Link to article or PDF copy",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "p-2",
+          "title": "Wired - Profile on AI Ethics Research",
+          "fields": [
+            {
+              "name": "publication_name",
+              "label": "Publication Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_link",
+              "label": "Article Link/PDF",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Link to article or PDF copy",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "p-3",
+          "title": "Nature News - Commentary on ML Advances",
+          "fields": [
+            {
+              "name": "publication_name",
+              "label": "Publication Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_link",
+              "label": "Article Link/PDF",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Link to article or PDF copy",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "membership",
+      "name": "Membership",
+      "description": "Selective professional organizations",
+      "guidance": "Document memberships in selective organizations that require demonstrated excellence in AI/ML.",
+      "instances": [
+        {
+          "id": "m-1",
+          "title": "ACM Distinguished Member",
+          "fields": [
+            {
+              "name": "date_selected",
+              "label": "Date Selected/Admitted",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "proof_of_membership",
+              "label": "Proof of Membership",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Acceptance letter, certificate, or official documentation",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "m-2",
+          "title": "IEEE Senior Member",
+          "fields": [
+            {
+              "name": "date_selected",
+              "label": "Date Selected/Admitted",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "proof_of_membership",
+              "label": "Proof of Membership",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Acceptance letter, certificate, or official documentation",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "critical-role",
+      "name": "Critical Role",
+      "description": "Leadership positions at top research institutions",
+      "guidance": "Document senior research positions where you led major AI initiatives at prestigious organizations.",
+      "instances": [
+        {
+          "id": "cr-1",
+          "title": "Principal Research Scientist at DeepMind",
+          "fields": [
+            {
+              "name": "start_date",
+              "label": "Start Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "end_date",
+              "label": "End Date",
+              "type": "date",
+              "required": false,
+              "hint": "Leave blank if current position",
+              "value": ""
+            },
+            {
+              "name": "key_responsibilities",
+              "label": "Key Responsibilities",
+              "type": "text",
+              "required": true,
+              "hint": "Describe your role, team size, and impact on the organization",
+              "value": ""
+            },
+            {
+              "name": "examples",
+              "label": "Supporting Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Offer letter, organizational charts, project documentation, internal announcements",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "cr-2",
+          "title": "Assistant Professor at Stanford CS Department",
+          "fields": [
+            {
+              "name": "start_date",
+              "label": "Start Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "end_date",
+              "label": "End Date",
+              "type": "date",
+              "required": false,
+              "hint": "Leave blank if current position",
+              "value": ""
+            },
+            {
+              "name": "key_responsibilities",
+              "label": "Key Responsibilities",
+              "type": "text",
+              "required": true,
+              "hint": "Describe your role, team size, and impact on the organization",
+              "value": ""
+            },
+            {
+              "name": "examples",
+              "label": "Supporting Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Appointment letter, faculty page, course syllabi, PhD students advised",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "high-remuneration",
+      "name": "High Remuneration",
+      "description": "Top-tier compensation in AI research",
+      "guidance": "Show that your compensation places you among the highest-paid AI researchers.",
+      "instances": [
+        {
+          "id": "hr-1",
+          "title": "Principal Research Scientist at DeepMind",
+          "fields": [
+            {
+              "name": "work_location",
+              "label": "Work Location",
+              "type": "text",
+              "required": true,
+              "hint": "City and State/Country",
+              "value": ""
+            },
+            {
+              "name": "salary",
+              "label": "Annual Salary",
+              "type": "text",
+              "required": true,
+              "hint": "Include currency and any bonuses/equity (e.g., $450,000 USD + equity)",
+              "value": ""
+            },
+            {
+              "name": "paystubs",
+              "label": "Recent Paystubs",
+              "type": "files",
+              "required": true,
+              "hint": "Upload your last 4 paystubs",
+              "value": []
+            },
+            {
+              "name": "comparison_data",
+              "label": "Industry Comparison",
+              "type": "files_or_urls",
+              "required": false,
+              "hint": "Salary surveys or data showing you're in top percentile for AI researchers",
+              "value": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

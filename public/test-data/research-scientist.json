@@ -1,0 +1,342 @@
+{
+  "applicant_name": "Dr. James Rodriguez",
+  "profile_type": "research-scientist",
+  "demographic_information": {
+    "fields": [
+      {
+        "name": "legal_name",
+        "label": "Legal Name",
+        "type": "text",
+        "required": true,
+        "value": "James Rodriguez"
+      },
+      {
+        "name": "passport",
+        "label": "Passport",
+        "type": "file",
+        "required": true,
+        "hint": "Upload a clear copy of your passport bio page"
+      },
+      {
+        "name": "country_of_birth",
+        "label": "Country of Birth",
+        "type": "text",
+        "required": true,
+        "value": ""
+      },
+      {
+        "name": "current_visa",
+        "label": "Current Visa Status",
+        "type": "text",
+        "required": true,
+        "hint": "e.g., F-1, H-1B, or None"
+      },
+      {
+        "name": "address",
+        "label": "Current Address",
+        "type": "text",
+        "required": true,
+        "hint": "Include both U.S. and foreign address if applicable"
+      }
+    ]
+  },
+  "criteria": [
+    {
+      "id": "scholarly-articles",
+      "name": "Scholarly Articles",
+      "description": "Published research in professional publications",
+      "guidance": "Document peer-reviewed publications that demonstrate your contributions to scientific knowledge.",
+      "instances": [
+        {
+          "id": "sa-1",
+          "title": "Nature - Novel Cancer Treatment Approach",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Journal/Publication Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of article, DOI link, or journal website link",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "sa-2",
+          "title": "Science - Immunotherapy Research",
+          "fields": [
+            {
+              "name": "publication_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "journal_name",
+              "label": "Journal/Publication Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "author_role",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "First author, corresponding author, co-author, etc.",
+              "value": ""
+            },
+            {
+              "name": "citation_count",
+              "label": "Citation Count",
+              "type": "text",
+              "required": false,
+              "hint": "Number of times cited (if available)",
+              "value": ""
+            },
+            {
+              "name": "publication_proof",
+              "label": "Publication Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "PDF of article, DOI link, or journal website link",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "original-contributions",
+      "name": "Original Contributions",
+      "description": "Original scientific contributions with significant impact",
+      "guidance": "Demonstrate how your research has advanced the field and been recognized by peers.",
+      "instances": [
+        {
+          "id": "oc-1",
+          "title": "Cancer Treatment Research",
+          "fields": [
+            {
+              "name": "work_description",
+              "label": "Describe Your Research",
+              "type": "text",
+              "required": true,
+              "hint": "What was novel about your approach or findings?",
+              "value": ""
+            },
+            {
+              "name": "impact_description",
+              "label": "Impact on the Field",
+              "type": "text",
+              "required": true,
+              "hint": "How has your research influenced treatment protocols, further research, or clinical practice?",
+              "value": ""
+            },
+            {
+              "name": "supporting_evidence",
+              "label": "Supporting Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Citations by others, media coverage, adoption by institutions, patents, clinical trials",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judging",
+      "name": "Judging",
+      "description": "Participation as a judge of others' work",
+      "guidance": "Show that you have been asked to evaluate the work of other researchers due to your expertise.",
+      "instances": [
+        {
+          "id": "j-1",
+          "title": "Peer Reviewer - Nature Medicine",
+          "fields": [
+            {
+              "name": "organization_name",
+              "label": "Journal/Organization Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "role_description",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "Peer reviewer, grant reviewer, editorial board member, etc.",
+              "value": ""
+            },
+            {
+              "name": "date_range",
+              "label": "Time Period",
+              "type": "text",
+              "required": true,
+              "hint": "e.g., 2022 - Present",
+              "value": ""
+            },
+            {
+              "name": "number_reviewed",
+              "label": "Number of Submissions Reviewed",
+              "type": "text",
+              "required": false,
+              "hint": "Approximate number if known",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Proof of Service",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Invitation letters, certificates, acknowledgment from journal",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "j-2",
+          "title": "NIH Grant Review Panel",
+          "fields": [
+            {
+              "name": "organization_name",
+              "label": "Journal/Organization Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "role_description",
+              "label": "Your Role",
+              "type": "text",
+              "required": true,
+              "hint": "Peer reviewer, grant reviewer, editorial board member, etc.",
+              "value": ""
+            },
+            {
+              "name": "date_range",
+              "label": "Time Period",
+              "type": "text",
+              "required": true,
+              "hint": "e.g., 2022 - Present",
+              "value": ""
+            },
+            {
+              "name": "number_reviewed",
+              "label": "Number of Submissions Reviewed",
+              "type": "text",
+              "required": false,
+              "hint": "Approximate number if known",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Proof of Service",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Invitation letters, certificates, acknowledgment from journal",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "awards",
+      "name": "Awards",
+      "description": "Recognition for excellence in your field",
+      "guidance": "Document major prizes, honors, or awards for your professional achievements.",
+      "instances": [
+        {
+          "id": "a-1",
+          "title": "NIH Early Career Award",
+          "fields": [
+            {
+              "name": "award_name",
+              "label": "Award Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "issuing_organization",
+              "label": "Issuing Organization",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "date_received",
+              "label": "Date Received",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "selection_criteria",
+              "label": "Selection Criteria",
+              "type": "text",
+              "required": true,
+              "hint": "Describe what the award recognizes and how selective it is",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Award Documentation",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Certificate, announcement, award letter",
+              "value": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "applicant_name": "Maya Patel",
+  "profile_type": "creative-director",
+  "demographic_information": {
+    "fields": [
+      {
+        "name": "legal_name",
+        "label": "Legal Name",
+        "type": "text",
+        "required": true,
+        "value": "Maya Patel"
+      },
+      {
+        "name": "passport",
+        "label": "Passport",
+        "type": "file",
+        "required": true,
+        "hint": "Upload a clear copy of your passport bio page"
+      },
+      {
+        "name": "country_of_birth",
+        "label": "Country of Birth",
+        "type": "text",
+        "required": true,
+        "value": ""
+      },
+      {
+        "name": "current_visa",
+        "label": "Current Visa Status",
+        "type": "text",
+        "required": true,
+        "hint": "e.g., F-1, H-1B, or None"
+      },
+      {
+        "name": "address",
+        "label": "Current Address",
+        "type": "text",
+        "required": true,
+        "hint": "Include both U.S. and foreign address if applicable"
+      }
+    ]
+  },
+  "criteria": [
+    {
+      "id": "awards",
+      "name": "Awards",
+      "description": "Major industry awards for creative excellence",
+      "guidance": "Document prestigious awards that recognize outstanding work in your creative field.",
+      "instances": [
+        {
+          "id": "a-1",
+          "title": "Cannes Lions Gold",
+          "fields": [
+            {
+              "name": "award_name",
+              "label": "Award Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "category",
+              "label": "Category",
+              "type": "text",
+              "required": true,
+              "hint": "e.g., Film, Digital, Design",
+              "value": ""
+            },
+            {
+              "name": "date_received",
+              "label": "Date Received",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "campaign_work",
+              "label": "Winning Work",
+              "type": "text",
+              "required": true,
+              "hint": "Name of campaign or project",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Award Documentation",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Certificate, announcement, press release",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "a-2",
+          "title": "One Show Gold Pencil",
+          "fields": [
+            {
+              "name": "award_name",
+              "label": "Award Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "category",
+              "label": "Category",
+              "type": "text",
+              "required": true,
+              "hint": "e.g., Film, Digital, Design",
+              "value": ""
+            },
+            {
+              "name": "date_received",
+              "label": "Date Received",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "campaign_work",
+              "label": "Winning Work",
+              "type": "text",
+              "required": true,
+              "hint": "Name of campaign or project",
+              "value": ""
+            },
+            {
+              "name": "proof",
+              "label": "Award Documentation",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Certificate, announcement, press release",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "press",
+      "name": "Press",
+      "description": "Media coverage about you and your work",
+      "guidance": "Show major publications that have featured your work or interviewed you.",
+      "instances": [
+        {
+          "id": "p-1",
+          "title": "Adweek Profile Feature",
+          "fields": [
+            {
+              "name": "publication_name",
+              "label": "Publication Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_link",
+              "label": "Article Link/PDF",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Link to article or PDF copy",
+              "value": []
+            }
+          ]
+        },
+        {
+          "id": "p-2",
+          "title": "Fast Company Innovation Feature",
+          "fields": [
+            {
+              "name": "publication_name",
+              "label": "Publication Name",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_title",
+              "label": "Article Title",
+              "type": "text",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "publication_date",
+              "label": "Publication Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "article_link",
+              "label": "Article Link/PDF",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Link to article or PDF copy",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "critical-role",
+      "name": "Critical Role",
+      "description": "Leadership positions at distinguished agencies",
+      "guidance": "Document senior creative positions where you led major initiatives.",
+      "instances": [
+        {
+          "id": "cr-1",
+          "title": "Creative Director at Ogilvy",
+          "fields": [
+            {
+              "name": "start_date",
+              "label": "Start Date",
+              "type": "date",
+              "required": true,
+              "value": ""
+            },
+            {
+              "name": "end_date",
+              "label": "End Date",
+              "type": "date",
+              "required": false,
+              "hint": "Leave blank if current position",
+              "value": ""
+            },
+            {
+              "name": "key_responsibilities",
+              "label": "Key Responsibilities",
+              "type": "text",
+              "required": true,
+              "hint": "Team size, major clients, campaigns led",
+              "value": ""
+            },
+            {
+              "name": "examples",
+              "label": "Supporting Evidence",
+              "type": "files_or_urls",
+              "required": true,
+              "hint": "Case studies, campaign work, client testimonials, speaking engagements",
+              "value": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "high-remuneration",
+      "name": "High Remuneration",
+      "description": "Top-tier compensation in advertising",
+      "guidance": "Show that your compensation places you among the highest-paid creative professionals.",
+      "instances": [
+        {
+          "id": "hr-1",
+          "title": "Creative Director at Ogilvy",
+          "fields": [
+            {
+              "name": "work_location",
+              "label": "Work Location",
+              "type": "text",
+              "required": true,
+              "hint": "City and State/Country",
+              "value": ""
+            },
+            {
+              "name": "salary",
+              "label": "Annual Salary",
+              "type": "text",
+              "required": true,
+              "hint": "Include currency and any bonuses",
+              "value": ""
+            },
+            {
+              "name": "paystubs",
+              "label": "Recent Paystubs",
+              "type": "files",
+              "required": true,
+              "hint": "Upload your last 4 paystubs",
+              "value": []
+            },
+            {
+              "name": "comparison_data",
+              "label": "Industry Comparison",
+              "type": "files_or_urls",
+              "required": false,
+              "hint": "Salary surveys or data showing you're in top percentile",
+              "value": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

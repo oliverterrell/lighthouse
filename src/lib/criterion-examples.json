@@ -1,0 +1,638 @@
+{
+  "criteria_examples": [
+    {
+      "id": "scholarly-articles",
+      "name": "Scholarly Articles",
+      "good_vs_bad_guidance": {
+        "good_characteristics": [
+          "Published in peer-reviewed, well-known conferences or journals",
+          "Clear evidence of your authorship role (first author, corresponding author)",
+          "Demonstrates impact through citations or acceptance rates",
+          "Includes complete publication proof (full paper, not just abstract)"
+        ],
+        "bad_characteristics": [
+          "Non-peer-reviewed publications or preprints only",
+          "Vague or missing authorship information",
+          "No evidence of impact or recognition",
+          "Incomplete documentation or broken links"
+        ]
+      },
+      "good_example": {
+        "id": "sa-good",
+        "title": "Conference Paper at NeurIPS 2023",
+        "fields": [
+          {
+            "name": "publication_title",
+            "value": "Efficient Transformer Architectures for Low-Resource Language Processing"
+          },
+          {
+            "name": "journal_name",
+            "value": "Conference on Neural Information Processing Systems (NeurIPS)"
+          },
+          {
+            "name": "publication_date",
+            "value": "2023-12-10"
+          },
+          {
+            "name": "author_role",
+            "value": "First author and corresponding author"
+          },
+          {
+            "name": "citation_count",
+            "value": "47 citations (Google Scholar, as of Jan 2025)"
+          },
+          {
+            "name": "publication_proof",
+            "value": [
+              "full_paper.pdf",
+              "https://papers.nips.cc/paper/2023/hash/abc123...",
+              "https://scholar.google.com/citations?view_op=view_citation&..."
+            ]
+          }
+        ],
+        "why_this_is_good": "NeurIPS is a top-tier, highly selective conference (acceptance rate ~26%). The applicant is first author, showing leadership. Citations demonstrate real-world impact. Complete documentation is provided."
+      },
+      "bad_example": {
+        "id": "sa-bad",
+        "title": "ArXiv Preprint",
+        "fields": [
+          {
+            "name": "publication_title",
+            "value": "Some Thoughts on Machine Learning"
+          },
+          {
+            "name": "journal_name",
+            "value": "arXiv"
+          },
+          {
+            "name": "publication_date",
+            "value": "2024-03-15"
+          },
+          {
+            "name": "author_role",
+            "value": "One of several co-authors"
+          },
+          {
+            "name": "citation_count",
+            "value": ""
+          },
+          {
+            "name": "publication_proof",
+            "value": [
+              "https://arxiv.org/abs/2403.xxxxx"
+            ]
+          }
+        ],
+        "why_this_is_bad": "ArXiv is not peer-reviewed. The title is vague. Author role is unclear (which position among co-authors?). No citations or evidence of impact. Only a preprint link without any peer-reviewed acceptance."
+      }
+    },
+    {
+      "id": "judging",
+      "name": "Judging",
+      "good_vs_bad_guidance": {
+        "good_characteristics": [
+          "Reviewing for prestigious, well-known conferences or journals",
+          "Clear documentation of your reviewer status (invitation letters, certificates)",
+          "Multiple review assignments showing ongoing trusted role",
+          "Evidence of senior reviewing positions (area chair, senior PC member)"
+        ],
+        "bad_characteristics": [
+          "Reviewing for unknown or low-tier venues",
+          "No official documentation, just self-reported",
+          "Single or very few reviews",
+          "Vague descriptions of responsibilities"
+        ]
+      },
+      "good_example": {
+        "id": "j-good",
+        "title": "Senior Program Committee Member, ICML 2024",
+        "fields": [
+          {
+            "name": "organization_name",
+            "value": "International Conference on Machine Learning (ICML)"
+          },
+          {
+            "name": "role_description",
+            "value": "Senior Program Committee Member (Area Chair) for Deep Learning track"
+          },
+          {
+            "name": "date_range",
+            "value": "January 2024 - July 2024"
+          },
+          {
+            "name": "number_reviewed",
+            "value": "Managed meta-review of 28 submissions, directly reviewed 6 papers"
+          },
+          {
+            "name": "proof",
+            "value": [
+              "icml_2024_invitation_letter.pdf",
+              "icml_2024_spc_certificate.pdf",
+              "https://icml.cc/Conferences/2024/Reviewers"
+            ]
+          }
+        ],
+        "why_this_is_good": "ICML is a premier conference. Senior PC/Area Chair is a prestigious role showing trust from the community. Specific numbers provided. Official documentation including invitation and certificate."
+      },
+      "bad_example": {
+        "id": "j-bad",
+        "title": "Reviewer for Various Journals",
+        "fields": [
+          {
+            "name": "organization_name",
+            "value": "Several journals in computer science"
+          },
+          {
+            "name": "role_description",
+            "value": "Peer reviewer"
+          },
+          {
+            "name": "date_range",
+            "value": "2023 - Present"
+          },
+          {
+            "name": "number_reviewed",
+            "value": "A few papers"
+          },
+          {
+            "name": "proof",
+            "value": [
+              "screenshot_of_email.png"
+            ]
+          }
+        ],
+        "why_this_is_bad": "No specific journal names mentioned. Vague role and impact. No quantifiable review count. Poor documentation (screenshot instead of official letters). Doesn't demonstrate standing in the field."
+      }
+    },
+    {
+      "id": "original-contributions",
+      "name": "Original Contributions",
+      "good_vs_bad_guidance": {
+        "good_characteristics": [
+          "Specific, quantifiable impact (users, stars, citations, adoption)",
+          "Clear explanation of innovation and why it matters",
+          "Evidence of widespread adoption or recognition",
+          "Multiple forms of proof (code, documentation, testimonials, metrics)"
+        ],
+        "bad_characteristics": [
+          "Vague descriptions without measurable impact",
+          "Common work that many others have done",
+          "No evidence of adoption or recognition",
+          "Limited or no documentation"
+        ]
+      },
+      "good_example": {
+        "id": "oc-good",
+        "title": "Open-Source Framework: FastInference",
+        "fields": [
+          {
+            "name": "work_description",
+            "value": "Created FastInference, an open-source optimization framework that reduces ML model inference latency by 60% while maintaining accuracy. Introduced novel quantization techniques now adopted by major tech companies."
+          },
+          {
+            "name": "impact_description",
+            "value": "Downloaded 2.3M times, 15K GitHub stars, used in production by 40+ companies including Microsoft and Uber. Cited in 89 academic papers. Reduced inference costs by estimated $50M+ across industry."
+          },
+          {
+            "name": "supporting_evidence",
+            "value": [
+              "https://github.com/username/fastinference (15.2K stars)",
+              "pypi_download_stats.pdf",
+              "case_study_microsoft.pdf",
+              "citations_analysis.pdf",
+              "tech_talk_qcon_2024.pdf"
+            ]
+          }
+        ],
+        "why_this_is_good": "Concrete, quantifiable metrics showing widespread adoption. Clear innovation explained. Multiple credible sources of evidence. Demonstrates significant industry impact."
+      },
+      "bad_example": {
+        "id": "oc-bad",
+        "title": "Personal Project",
+        "fields": [
+          {
+            "name": "work_description",
+            "value": "Built a web application for task management with some cool features."
+          },
+          {
+            "name": "impact_description",
+            "value": "My friends and colleagues found it useful. It's a pretty good app that solves problems."
+          },
+          {
+            "name": "supporting_evidence",
+            "value": [
+              "https://github.com/username/todo-app (37 stars)"
+            ]
+          }
+        ],
+        "why_this_is_bad": "Vague descriptions without specifics. No quantifiable impact. Limited adoption (37 stars is modest). Common type of project. Minimal documentation. Doesn't demonstrate extraordinary ability."
+      }
+    },
+    {
+      "id": "awards",
+      "name": "Awards",
+      "good_vs_bad_guidance": {
+        "good_characteristics": [
+          "Nationally or internationally recognized awards",
+          "Highly selective (acceptance rate, competition details)",
+          "Relevant to your field of expertise",
+          "Official documentation from credible organizations"
+        ],
+        "bad_characteristics": [
+          "Internal company awards or participation certificates",
+          "Non-competitive or broadly given awards",
+          "Unrelated to claimed expertise",
+          "Self-issued or from non-credible sources"
+        ]
+      },
+      "good_example": {
+        "id": "a-good",
+        "title": "Best Paper Award at ACL 2023",
+        "fields": [
+          {
+            "name": "award_name",
+            "value": "Best Paper Award"
+          },
+          {
+            "name": "issuing_organization",
+            "value": "Association for Computational Linguistics (ACL)"
+          },
+          {
+            "name": "date_received",
+            "value": "2023-07-12"
+          },
+          {
+            "name": "selection_criteria",
+            "value": "Selected as the single best paper from 1,350+ submissions (0.07% selection rate) by the program committee based on originality, impact, and technical quality."
+          },
+          {
+            "name": "proof",
+            "value": [
+              "acl_2023_best_paper_certificate.pdf",
+              "https://2023.aclweb.org/program/best_papers/",
+              "award_announcement_letter.pdf"
+            ]
+          }
+        ],
+        "why_this_is_good": "Prestigious, internationally recognized conference. Extremely selective (1 out of 1,350+). Clear criteria. Official documentation from credible organization. Demonstrates excellence."
+      },
+      "bad_example": {
+        "id": "a-bad",
+        "title": "Employee of the Month",
+        "fields": [
+          {
+            "name": "award_name",
+            "value": "Employee of the Month Award"
+          },
+          {
+            "name": "issuing_organization",
+            "value": "XYZ Tech Company"
+          },
+          {
+            "name": "date_received",
+            "value": "2024-05-01"
+          },
+          {
+            "name": "selection_criteria",
+            "value": "Given to employees who perform well each month."
+          },
+          {
+            "name": "proof",
+            "value": [
+              "certificate_scan.pdf"
+            ]
+          }
+        ],
+        "why_this_is_bad": "Internal company award, not nationally/internationally recognized. Given monthly (not highly selective). Vague criteria. Doesn't demonstrate extraordinary ability compared to peers in the field."
+      }
+    },
+    {
+      "id": "press",
+      "name": "Press",
+      "good_vs_bad_guidance": {
+        "good_characteristics": [
+          "Coverage in major, well-known publications",
+          "Focused on your work or achievements (not just mentioned)",
+          "Multiple independent articles from credible sources",
+          "Trade publications relevant to your field"
+        ],
+        "bad_characteristics": [
+          "Local, small, or non-credible publications",
+          "Paid or sponsored content",
+          "Brief mentions without substance",
+          "Self-published or promotional materials"
+        ]
+      },
+      "good_example": {
+        "id": "p-good",
+        "title": "Feature in TechCrunch",
+        "fields": [
+          {
+            "name": "publication_name",
+            "value": "TechCrunch"
+          },
+          {
+            "name": "article_title",
+            "value": "How This AI Researcher's Breakthrough Is Changing Healthcare Diagnostics"
+          },
+          {
+            "name": "publication_date",
+            "value": "2024-09-15"
+          },
+          {
+            "name": "article_link",
+            "value": [
+              "https://techcrunch.com/2024/09/15/ai-researcher-healthcare-breakthrough",
+              "article_pdf_backup.pdf"
+            ]
+          }
+        ],
+        "why_this_is_good": "TechCrunch is a major, internationally recognized tech publication. Article focuses specifically on the applicant's work. Clear subject matter relevance. Credible, independent journalism."
+      },
+      "bad_example": {
+        "id": "p-bad",
+        "title": "Local Newsletter Mention",
+        "fields": [
+          {
+            "name": "publication_name",
+            "value": "Community Tech Newsletter"
+          },
+          {
+            "name": "article_title",
+            "value": "Local Professionals Attend Tech Conference"
+          },
+          {
+            "name": "publication_date",
+            "value": "2024-06-20"
+          },
+          {
+            "name": "article_link",
+            "value": [
+              "newsletter_screenshot.png"
+            ]
+          }
+        ],
+        "why_this_is_bad": "Local, limited-circulation publication. Brief mention, not focused on applicant's work. No demonstration of national/international recognition. Screenshot instead of official article."
+      }
+    },
+    {
+      "id": "membership",
+      "name": "Membership",
+      "good_vs_bad_guidance": {
+        "good_characteristics": [
+          "Membership requires outstanding achievements (not just paying dues)",
+          "Highly selective organizations with rigorous admission criteria",
+          "Nationally or internationally recognized associations",
+          "Clear documentation of selection process and your qualifications"
+        ],
+        "bad_characteristics": [
+          "Organizations open to anyone who pays membership fees",
+          "Student or general professional memberships",
+          "No selection criteria or vetting process",
+          "Unknown or non-credible organizations"
+        ]
+      },
+      "good_example": {
+        "id": "m-good",
+        "title": "ACM Distinguished Member",
+        "fields": [
+          {
+            "name": "organization_name",
+            "value": "Association for Computing Machinery (ACM)"
+          },
+          {
+            "name": "membership_type",
+            "value": "ACM Distinguished Member"
+          },
+          {
+            "name": "selection_criteria",
+            "value": "Requires at least 15 years of professional experience and 5 years of continuous ACM Professional Membership. Nominated by peers and selected based on significant accomplishments and impact in computing. Only top 10% of ACM members achieve this distinction."
+          },
+          {
+            "name": "date_selected",
+            "value": "2023-11-01"
+          },
+          {
+            "name": "proof_of_membership",
+            "value": [
+              "acm_distinguished_member_certificate.pdf",
+              "nomination_letter.pdf",
+              "acceptance_notification.pdf",
+              "https://awards.acm.org/distinguished-members/award-winners"
+            ]
+          }
+        ],
+        "why_this_is_good": "Highly selective honor requiring outstanding achievements. Clear, rigorous criteria. Internationally recognized organization. Requires nomination and peer selection. Complete documentation provided."
+      },
+      "bad_example": {
+        "id": "m-bad",
+        "title": "IEEE Student Member",
+        "fields": [
+          {
+            "name": "organization_name",
+            "value": "Institute of Electrical and Electronics Engineers (IEEE)"
+          },
+          {
+            "name": "membership_type",
+            "value": "Student Member"
+          },
+          {
+            "name": "selection_criteria",
+            "value": "Open to any student enrolled in relevant degree programs who pays annual dues."
+          },
+          {
+            "name": "date_selected",
+            "value": "2022-09-01"
+          },
+          {
+            "name": "proof_of_membership",
+            "value": [
+              "membership_card_photo.jpg"
+            ]
+          }
+        ],
+        "why_this_is_bad": "Open membership requiring only dues payment. No selection based on achievements. Student membership level. Doesn't demonstrate outstanding ability. Poor documentation quality."
+      }
+    },
+    {
+      "id": "critical-role",
+      "name": "Critical Role",
+      "good_vs_bad_guidance": {
+        "good_characteristics": [
+          "Leadership position with significant organizational impact",
+          "Clear evidence of how your role was critical to success",
+          "Quantifiable results and responsibilities",
+          "Documentation from the organization confirming your role and impact"
+        ],
+        "bad_characteristics": [
+          "Standard contributor role without leadership",
+          "Vague descriptions of responsibilities",
+          "No evidence of organizational impact",
+          "Self-reported without third-party verification"
+        ]
+      },
+      "good_example": {
+        "id": "cr-good",
+        "title": "Head of AI Research, TechCorp",
+        "fields": [
+          {
+            "name": "organization_name",
+            "value": "TechCorp (Fortune 500 company)"
+          },
+          {
+            "name": "position_title",
+            "value": "Head of AI Research"
+          },
+          {
+            "name": "start_date",
+            "value": "2022-03-01"
+          },
+          {
+            "name": "end_date",
+            "value": ""
+          },
+          {
+            "name": "key_responsibilities",
+            "value": "Lead a team of 35 AI researchers and engineers. Established the company's AI research division from scratch, securing $15M annual budget. Directed development of core AI technologies now used by 50M+ users. Set technical strategy for all ML initiatives. Published 12 papers at top conferences under my leadership."
+          },
+          {
+            "name": "examples",
+            "value": [
+              "offer_letter_head_of_ai.pdf",
+              "org_chart_showing_reporting_structure.pdf",
+              "linkedin_recommendation_from_cto.pdf",
+              "internal_announcement_appointment.pdf",
+              "team_accomplishments_summary.pdf"
+            ]
+          }
+        ],
+        "why_this_is_good": "Senior leadership position at reputable company. Quantifiable impact (team size, budget, users). Clear critical role in establishing new division. Multiple forms of documentation from the organization."
+      },
+      "bad_example": {
+        "id": "cr-bad",
+        "title": "Software Engineer",
+        "fields": [
+          {
+            "name": "organization_name",
+            "value": "Small Tech Startup"
+          },
+          {
+            "name": "position_title",
+            "value": "Software Engineer"
+          },
+          {
+            "name": "start_date",
+            "value": "2023-06-01"
+          },
+          {
+            "name": "end_date",
+            "value": "2024-08-01"
+          },
+          {
+            "name": "key_responsibilities",
+            "value": "Worked on various projects as part of the engineering team. Contributed to product development and helped with technical tasks."
+          },
+          {
+            "name": "examples",
+            "value": [
+              "employment_verification_letter.pdf"
+            ]
+          }
+        ],
+        "why_this_is_bad": "Standard role, not leadership or critical position. Vague responsibilities without measurable impact. Short tenure. Minimal documentation. Doesn't demonstrate how role was essential to organization."
+      }
+    },
+    {
+      "id": "high-remuneration",
+      "name": "High Remuneration",
+      "good_vs_bad_guidance": {
+        "good_characteristics": [
+          "Compensation significantly above national average for the field",
+          "Complete documentation (paystubs, offer letters, W-2s)",
+          "Comparison data showing top percentile standing",
+          "Includes all components: base, bonus, equity"
+        ],
+        "bad_characteristics": [
+          "Salary at or below average for the field and location",
+          "Incomplete financial documentation",
+          "No comparison to industry standards",
+          "Inflated or unverifiable claims"
+        ]
+      },
+      "good_example": {
+        "id": "hr-good",
+        "title": "Senior ML Engineer Compensation",
+        "fields": [
+          {
+            "name": "position_title",
+            "value": "Senior Machine Learning Engineer"
+          },
+          {
+            "name": "employer",
+            "value": "Major Tech Company"
+          },
+          {
+            "name": "work_location",
+            "value": "San Francisco, CA, USA"
+          },
+          {
+            "name": "salary",
+            "value": "$425,000 base + $150,000 annual bonus + $300,000 equity/year = $875,000 total compensation"
+          },
+          {
+            "name": "paystubs",
+            "value": [
+              "paystub_october_2024.pdf",
+              "paystub_november_2024.pdf",
+              "paystub_december_2024.pdf",
+              "paystub_january_2025.pdf"
+            ]
+          },
+          {
+            "name": "comparison_data",
+            "value": [
+              "levels_fyi_ml_engineer_salary_data.pdf",
+              "offer_letter_with_compensation.pdf",
+              "w2_form_2024.pdf",
+              "h1b_salary_database_screenshot.pdf (showing 95th percentile)"
+            ]
+          }
+        ],
+        "why_this_is_good": "Very high compensation clearly documented. Well above national average for ML engineers (typically $150-250K). Complete financial records including paystubs and W-2. Comparison data showing top percentile. All compensation components included."
+      },
+      "bad_example": {
+        "id": "hr-bad",
+        "title": "Developer Salary",
+        "fields": [
+          {
+            "name": "position_title",
+            "value": "Software Developer"
+          },
+          {
+            "name": "employer",
+            "value": "Tech Company"
+          },
+          {
+            "name": "work_location",
+            "value": "Austin, TX, USA"
+          },
+          {
+            "name": "salary",
+            "value": "$95,000 per year"
+          },
+          {
+            "name": "paystubs",
+            "value": [
+              "paystub_december_2024.pdf"
+            ]
+          },
+          {
+            "name": "comparison_data",
+            "value": []
+          }
+        ],
+        "why_this_is_bad": "Salary around or below national average for software developers. Only one paystub provided (need 4). No comparison data to demonstrate high standing. Missing documentation like offer letter or W-2. Doesn't show top percentile compensation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export { LighthouseSvg } from './LighthouseSvg';
